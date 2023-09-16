@@ -140,21 +140,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <form method="POST" action="login.php" id="loginForm" class="needs-validation" novalidate>
                     <div class="form-group">
                         <label for="username">Username:</label>
-                        <input type="text" class="form-control" id="username" name="username" placeholder="Enter your number eg: 0712345678" value="<?php echo isset($_POST['username']) ? htmlspecialchars($_POST['username']) : ''; ?>" required>
-                        <div class="valid-feedback">
-                            <i class="fas fa-check text-success"></i>
-                        </div>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Enter your phone number eg: 0712345678" value="<?php echo isset($_POST['username']) ? htmlspecialchars($_POST['username']) : ''; ?>" required>
+                       
                         <div class="invalid-feedback">
-                            Please enter a valid username.
-                        </div>
+                        Please enter a valid 10-digit phone number e.g=> 0712345678
+                            </div>
                     </div>
 
                     <div class="form-group">
                         <label for="password">Password:</label>
                         <input type="password" class="form-control" id="password" name="password" required>
-                        <div class="valid-feedback">
-                            <i class="fas fa-check text-success"></i>
-                        </div>
+                       
                         <div class="invalid-feedback">
                             Please enter a valid password.
                         </div>
@@ -181,14 +177,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             const passwordInput = document.getElementById("password");
 
             usernameInput.addEventListener("input", function () {
-                if (usernameInput.value.trim() === "") {
-                    usernameInput.classList.remove("is-valid");
-                    usernameInput.classList.remove("is-invalid");
-                } else {
-                    usernameInput.classList.remove("is-invalid");
-                    usernameInput.classList.add("is-valid");
-                }
-            });
+        const inputValue = usernameInput.value.trim();
+        const isValidPhoneNumber = /^\d{10}$/.test(inputValue);
+
+        if (!isValidPhoneNumber) {
+            usernameInput.classList.remove("is-valid");
+            usernameInput.classList.add("is-invalid");
+        } else {
+            usernameInput.classList.remove("is-invalid");
+            usernameInput.classList.add("is-valid");
+        }
+    });
+
 
             passwordInput.addEventListener("input", function () {
                 const passwordValue = passwordInput.value.trim();
