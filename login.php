@@ -45,6 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <head>
     <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Include Bootstrap 4 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Include SweetAlert2 CSS -->
@@ -128,7 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </nav>
 <div class="container mt-4">
     <div class="row justify-content-center">
-        <div class="col-md-7">
+        <div class="col-md-8">
             <div class="card">
                 <div class="card-header bg-primary text-white">
                     <h2 class="text-center">company Name or Logo </h2>
