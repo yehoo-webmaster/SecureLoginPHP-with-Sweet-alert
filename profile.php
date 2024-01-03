@@ -316,16 +316,6 @@ if ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
                     Swal.fire({icon: 'success', title: 'Success', text: message});
                 }
 
-                function updateProfilePicture() {
-                    $.ajax({
-                        url: 'get_profile_picture.php', // Create a new PHP script to fetch the updated profile picture URL
-                        method: 'GET',
-                        success: function (imageURL) {
-                            // Update the profile picture in the top navbar
-                            $('#profileImage').attr('src', imageURL);
-                        }
-                    });
-                }
 
                 // Function to update the profile picture
                 function updateProfilePicture() {
