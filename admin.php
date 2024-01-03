@@ -35,12 +35,12 @@ try {
     <title>Admin Panel</title>
 
      <!-- Include Bootstrap 4 CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <link rel="stylesheet" href="./bootstrap_4.5.2/css/bootstrap.min.css">
     <!-- Include DataTables CSS -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="./dataTable/css/bootstrap4.min.css">
 
     <!-- Include DataTables Buttons extension CSS -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.7.1/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="./dataTable/css/buttons.dataTables.min.css">
 
     <!-- Include DataTables JavaScript -->
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
@@ -90,7 +90,8 @@ try {
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Email</th>
-                    <th>Phone</th>
+                    <th>Amount</th>
+                   <!-- <th>Phone</th>-->
                     <th>username</th>
                     <th>Registration Date</th>
                 </tr>
@@ -102,7 +103,8 @@ try {
                         <td><?php echo $user['first_name']; ?></td>
                         <td><?php echo $user['last_name']; ?></td>
                         <td><?php echo $user['email']; ?></td>
-                        <td><?php echo $user['phone']; ?></td>
+                        <td><?php echo $user['amount']; ?></td>
+                       <!-- <td><?php echo $user['phone']; ?></td>-->
                         <td><?php echo $user['username']; ?></td>
                         <td><?php echo $user['registration_date']; ?></td>
                     </tr>
@@ -115,12 +117,12 @@ try {
 </div>
 
 <!-- Include Bootstrap 4 scripts -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/popperjs_core@2.5.3_dist_umd_popper.min.js"></script>
+<script src="./bootstrap_4.5.2/js/bootstrap.min.js"></script>
 <!-- Include DataTables JavaScript -->
-<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
+<script src="./dataTable/js/jquery.dataTables.min.js"></script>
+<script src="./dataTable/js/dataTables.bootstrap4.min.js"></script>
 
 <script>
 $(document).ready(function() {
