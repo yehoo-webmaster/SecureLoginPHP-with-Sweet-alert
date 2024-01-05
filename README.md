@@ -1,22 +1,32 @@
 # ooPhp
-Web development using object oriented php , building a system that enable user to be registerd ,login succesfuly and views personal registered information.
-authentications:: Db_name = ommyDb,   username are phone numbers =>  for admin:  username = 0672725612 , password= 12345678.
-client: username = 0753720642, password = 12345678
+Web development using object oriented php , building a secure system that enable user to be registerd ,login succesfuly and views personal registered information.
+authentications:: Db_name = ommyDb,   usernames are phone numbers
+=>  for admin:  username = 0672725612 && password= 12345678.
+client: username = 0753720642 && password = 12345678
 
-![page1](https://github.com/yehoo-webmaster/ooPhp/assets/102858370/6fe1a065-ff1b-4f10-94b1-b2501fd552c9)
+**1.Landing page below**
 
-![page2](https://github.com/yehoo-webmaster/ooPhp/assets/102858370/46cbe478-d919-483b-9c88-f74c30dfdb78)
+![landing](https://github.com/yehoo-webmaster/SecureLoginPHP-with-Sweet-alert/assets/102858370/262cea9f-17cf-48f7-b6b6-1f2092309069)
 
-
-![tired_now](https://github.com/yehoo-webmaster/ooPhp/assets/102858370/e3a6833a-e81d-4647-b781-d477e90f790e)
-
-
+ 
 
 
-![theadmin](https://github.com/yehoo-webmaster/ooPhp/assets/102858370/1587afee-cec6-420e-84e9-73018f027111)
+![login](https://github.com/yehoo-webmaster/SecureLoginPHP-with-Sweet-alert/assets/102858370/2f67070b-a16e-4ec8-b039-41034a11c25d)    
 
 
-![tired2](https://github.com/yehoo-webmaster/ooPhp/assets/102858370/8e1779d9-3669-4e4b-8cac-df4d1611a8a3)
+**2.login page in mobile Device screen below**
+
+![loginMobile](https://github.com/yehoo-webmaster/SecureLoginPHP-with-Sweet-alert/assets/102858370/22c21fc4-b6b7-474b-8cf4-74b1e8646947)
+
+
+**3.Register page**
+
+![register](https://github.com/yehoo-webmaster/SecureLoginPHP-with-Sweet-alert/assets/102858370/2bb77136-a3e3-4376-a90d-a18355d75a60)
+
+
+**4.Dashboard page**
+
+![dashboard](https://github.com/yehoo-webmaster/SecureLoginPHP-with-Sweet-alert/assets/102858370/bf2737df-2419-427c-8486-3975a27ca84c)
 
 
 
