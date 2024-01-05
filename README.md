@@ -1,5 +1,5 @@
 # ooPhp
-Web development using object oriented php , building a secure system that enable user to be registerd ,login succesfuly and views personal registered information.
+Web development using object oriented php , building a secure system named (Microfinance) as example that enable user to be registerd ,login succesfuly and views personal registered information.
 authentications:: Db_name = ommyDb,   
 usernames are phone numbers
 =>  for admin:  username = 0672725612 && password= 12345678.
