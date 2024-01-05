@@ -1,6 +1,7 @@
 # ooPhp
 Web development using object oriented php , building a secure system that enable user to be registerd ,login succesfuly and views personal registered information.
-authentications:: Db_name = ommyDb,   usernames are phone numbers
+authentications:: Db_name = ommyDb,   
+usernames are phone numbers
 =>  for admin:  username = 0672725612 && password= 12345678.
 client: username = 0753720642 && password = 12345678
 
