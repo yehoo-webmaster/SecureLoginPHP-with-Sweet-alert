@@ -3,6 +3,7 @@ Web development using object oriented php , building a secure system that enable
 authentications:: Db_name = ommyDb,   
 usernames are phone numbers
 =>  for admin:  username = 0672725612 && password= 12345678.
+
 client: username = 0753720642 && password = 12345678
 
 **1.Landing page below**
