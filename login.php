@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
 
     try {
-        $pdo = new PDO("mysql:host=localhost;dbname=ommyDb", "root", "");
+        $pdo = new PDO("mysql:host=localhost;dbname=id21754609_ommydb", "id21754609_root", "Supernova1998!!!");
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         // Query to retrieve user data by username
